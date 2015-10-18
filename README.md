@@ -11,11 +11,14 @@ If it is a periodic fraction, the period enclosed in parentheses. Maximal *radix
 	javac FractionFinder.java
  
 ### Usage
-	- to input from keyboard
-	java FractionFinder
+- to input from keyboard
+
+	`java FractionFinder`
 	
 ### Example 
-	Input: 67 7 2 
+	Input: 
+	67 7 2
 	, where numerator = 67, denominator = 7, radix = 2 
-	Output: 1001.(100)
+	Output: 
+	1001.(100)
 	, where (100) is a period
