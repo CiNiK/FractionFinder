@@ -10,7 +10,6 @@
 * Sample output: 7.P(39TGD)
 * , where (39TGD) - is a period.
 * */
-package fractions;
 
 class Fraction {
     private final static char[] digits = {
