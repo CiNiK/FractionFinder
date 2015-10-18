@@ -24,6 +24,8 @@ public class FractionFinder {
                 System.out.println("Invalid input. Print three integers");
             } catch (NumberFormatException ex) {
                 System.out.println("Invalid input. Numerator, denominator and radix must be integers");
+            }catch (IllegalArgumentException ex) {
+                System.out.println("Invalid input. "+ex.getMessage());
             }
         }
 

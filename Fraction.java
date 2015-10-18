@@ -100,12 +100,12 @@ class Fraction {
     /*Simple unit testing*/
     public static void main(String[] args) {
         String integer = Fraction.toString(999, 9, 18);
-        String fraction = Fraction.toString(67, 7, 2);
+        String period = Fraction.toString(67, 7, 2);
         String mixed = Fraction.toString(43, 15, 10);
         if (!"63".equals(integer))
             System.out.println("63 not equals " + integer);
-        if (!"1001.(100)".equals(fraction))
-            System.out.println("1001.(100) not equals " + fraction);
+        if (!"1001.(100)".equals(period))
+            System.out.println("1001.(100) not equals " + period);
         if (!"2.8(6)".equals(mixed))
             System.out.println("2.8(6) not equals " + mixed);
     }
