@@ -27,6 +27,6 @@ public class FractionFinder {
                 System.out.println("Invalid input. "+ex.getMessage());
             }
         }
-
+        reader.close();
     }
 }
